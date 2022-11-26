@@ -27,7 +27,7 @@ public class UserServiceImpl implements UserService {
         user.removeUserById(id);
     }
 
-    public List<User> getAllUsers() throws SQLException {
+    public List<User> getAllUsers()  {
             return user.getAllUsers();
     }
 
